@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .kart-image{
+            position: relative;
+            height: 150px;
+            width: 150px;
+        }
+        .kart-image .kart-img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .kart{
+            background-color: black;
+            width: 320px;
+        }
+        .slide-content{
+            margin: 0 40px;
+        }
+        .image-content,
+        .kart-content{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px 14px;
+            position: relative;
+        }
+        .overlay{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            background-color: blue
+        }
+        .slide-content{
+            max-width: 1120px;
+            width: 100%;
+            background-color: grey;
+        }
+   </style>
+</head>
+
+<body>
+ 
+    <div class="slide-content">
+        <div class="kart-wrapper">
+            <div class="kart">
+                <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="kart-image">
+                        <img src="style/neft.jpg" alt="" class="kart-img">
+                    </div>
+                </div>
+                <div class="kart-content">
+                    <h2 class="name">Selman</h2>
+                    <p class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut veritatis incidunt soluta, dignissimos at ab delectus dolorem pariatur ipsum deserunt iusto. Modi repudiandae nemo velit delectus alias est quae nobis.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

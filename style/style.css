@@ -15,10 +15,7 @@ nav img {
     background-image: url('neft2.jpg');
 } */
 
-.main2 {
-    border: 1.5px solid black;
-    border-radius: 5px;
-}
+
 
 .section9 i:hover {
     transform: scale(1.2);
@@ -151,7 +148,35 @@ nav img {
     display: none;
 }
 
-
+ .footermain {
+    background-image: linear-gradient(#1E2125, #DEB604);
+}
+.slide>img {
+    width: 100px;
+    height: 100px;
+    animation: scroll 6s linear infinite;
+  }
+  
+  .slide-track {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    overflow: hidden;
+  }
+  
+  .slider1 {
+    margin-top: 70px;
+    background-color: whitesmoke;
+    padding: 8em 0;
+  }
+  
+  @keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-1000%)}
+  }
+  #modalilkbody{
+    display: none;
+  }
 
 @media(max-width: 600px) {
     .sekil>img {
