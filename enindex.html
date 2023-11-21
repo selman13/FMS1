@@ -9,15 +9,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="favicon" href="style/tes.png">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <title>TES</title>
 </head>
 
 <body>
   <div id="header">
-    <nav class="navbar navbar-expand-lg bg-dark   navbar-dark shadow fixed-top">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow fixed-top mb-5">
       <div class="container-fluid">
         <img src="style/tes.png" alt="" class="ms-3">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -34,6 +35,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link text-light fw-bold" href="#project">Our Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fw-bold" href="#cert">Our Certificates</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light fw-bold" href="#contact">Contact</a>
@@ -124,7 +128,7 @@
           Soil and Concrete testing, NDT, OCTG, QA/QC, and training services. Our commitment to delivering high-quality,
           safe, and innovative solutions is at the core of everything we do.
         </div>
-        <div class="col-lg-4 col-md-12 my-5">
+        <div class="col-lg-4 col-md-12 my-3">
           <h5>Our visions</h5>
           At TES, our vision is to redefine industry standards through innovation in Soil and Concrete testing, NDT,
           OCTG, QA/QC, and training services. We aim to set a new benchmark for excellence, safety, and global
@@ -138,12 +142,9 @@
   <div class="main1">
     <div class="container-fluid">
       <div class="row d-flex flex-wrap justify-content-center align-items">
-        <div class="col-lg-6 col-md-12 section1 mx-auto">
+        <div class="col-lg-12 section1 text-center mb-5">
           <div class="div w-lg-50 w-md-100 ">
-            <h4>How do we work?</h4>
-            <p>Our asphalt services focus on delivering high quality pavement conditions for a variety of applications
-              gives From road construction to maintenance, our expertise in asphalt technologies ensures durable and
-              long-lasting surfaces.</p>
+            <h1>How do we work?</h1>
           </div>
         </div>
         <div class="container col-lg-6">
@@ -151,7 +152,7 @@
             <div class="col-lg-12 col-4">
               <div style="border-radius: 20px;"
                 class="box bg-dark d-flex align-items-baseline  justify-content-around w-lg-25 w-100">
-                <p style="color: white;" class="py-2 my-1 peler">Longevity</p>
+                <p style="color: white;" class="py-2 my-1 peler">Accurate</p>
                 <i class="fa-solid fa-infinity" style="color: #ffffff;"></i>
               </div>
             </div>
@@ -164,9 +165,9 @@
             </div>
             <div class="col-lg-12 col-4">
               <div style="border-radius: 20px;"
-                class="box bg-dark d-flex align-items-baseline  justify-content-around w-lg-25 w-100">
+                class="box bg-dark d-flex align-items-baseline  justify-content-around w-lg-25 w-100" >
                 <p style="color: white;" class="py-2 my-1 peler">Security</p>
-                <i class="fa-solid fa-lock" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-lock" style="color: #ffffff;" id="service"></i>
               </div>
             </div>
           </div>
@@ -781,8 +782,8 @@
   </div>
 </div>
 
-  <section id="infinityscroll" class="d-flex flex-wrap  justify-content-around">
-    <h1 class="col-lg-12 d-flex justify-content-center mb-5">Our Projects</h1>
+<h1 class="col-lg-12 d-flex justify-content-center mb-5">Our Projects</h1>
+  <!-- <section id="infinityscroll" class="d-flex flex-wrap  justify-content-around">
     <div class="card shadow my-1" style="width: 18rem;">
       <img src="style/pipe.jpg" class="card-img-top p-1" height="200px">
       <div class="card-body">
@@ -819,7 +820,62 @@
         <h6 class="card-text">TANK INSPECTION</h6>
       </div><span id="contact"></span>
     </div>
-  </section>
+  </section> -->
+  <div class="slide-container swiper">
+    <div class="slide-content">
+        <div class="kard-wrapper swiper-wrapper ">
+            <div class="kard swiper-slide">
+              <div class="card shadow my-1" style="width: 100%;">
+                <img src="style/pipe.jpg" class="card-img-top p-1" height="200px">
+                <div class="card-body">
+                  <h4 style="font-size: 20px;" class="p-1">CNIM Azərbaycan(FRANCE)</h4>
+                  <h6 class="card-text">PIPE WALLTHICKNESS (UT)</h6>
+                  <h6 class="card-text">NDT SERVICES </h6>
+                  <h6 class="card-text">ENDOSCOPY</h6><br>
+                </div>
+              </div>
+            </div>
+            <div class="kard swiper-slide">
+              <div class="card shadow my-1" style="width: 100%;">
+                <img src="style/crane.jpg" class="card-img-top p-1" height="200px">
+                <div class="card-body">
+                  <h4 style="font-size: 20px;" class="p-1">AZERTEXNOLAYN</h4>
+                  <h6 class="card-text">INSPECTION OF OVERHEAD CRANES</h6>
+                  <h6 class="card-text">LOAD CELL</h6><br><br>
+                </div>
+              </div>
+            </div>
+            <div class="kard swiper-slide">
+              <div class="card shadow my-1" style="width: 100%;">
+                <img src="style/pipeline.jpg" class="card-img-top p-1" height="200px">
+                <div class="card-body">
+                  <h4 style="font-size: 20px;" class="p-1">ZENİT ARAN ƏŞ (CANADA)</h4>
+                  <h6 class="card-text">OCTG (DRILL PIPE)</h6>
+                  <h6 class="card-text">OCTG (BHA)</h6>
+                  <h6 class="card-text">PIPELINE INSPECTION</h6>
+                  <h6 class="card-text">TANK INSPECTION</h6>
+                </div>
+              </div>
+            </div>
+            <div class="kard swiper-slide">
+              <div class="card shadow my-1" style="width: 100%;">
+                <img src="style/tank.jpg" class="card-img-top p-1" height="200px">
+                <div class="card-body">
+                  <h4 style="font-size: 20px;" class="p-1">MMQ (AZERBAIJAN)</h4>
+                  <h6 class="card-text">TANK İNSPECTION</h6><br><br><br>
+                </div>
+              </div>
+            </div>  
+
+        </div>
+        <span id="cert" style="visibility: hidden;" class="my-3">salam</span>
+        
+    </div>
+
+    <div class="swiper-button-next swiper-navBtn"></div>
+    <div class="swiper-button-prev swiper-navBtn"></div>
+    <div class="swiper-pagination"></div>
+</div>
 
   <div class="logos">
     <h1 class="col-lg-12 d-flex justify-content-center">Our Certificates</h1>
@@ -839,12 +895,14 @@
       <img src="style/copy4.jpg">
       <img src="style/copy5.jpg">
     </div>
+  <h1 class="my-1" style="visibility: hidden;" id="contact">Salam</h1>
+
   </div>
 
 
+  <h1 class="col-lg-12 d-flex justify-content-center">Contact</h1>
   <div class="main5 container">
     <div class="section8">
-      <h1 class="text-center mt-lg-5 mb-lg-4">Contact</h1>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.729458757615!2d49.85635537490752!3d40.41484375575597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403087fef0e167f9%3A0x2d47dbedc1eea9e7!2sChinar%20Park!5e0!3m2!1saz!2saz!4v1700304304388!5m2!1saz!2saz"
         width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -856,7 +914,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-3">
-            <img src="style/tes.png" alt="" height="60px" width="60px">
+            <img src="style/musteri.png" alt="" height="90px" width="90px">
           </div>
           <div class="col-lg-3 text-center">
             <h6>Contact</h6>
@@ -897,11 +955,12 @@
   </div>
 
 
-  <script src="style/script.js"></script>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 
 </html>
