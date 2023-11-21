@@ -50,12 +50,12 @@ nav img {
 
 .logos-slide {
     display: inline-block;
-    animation: 5s slide infinite linear;
+    animation: 8s slide infinite linear;
 }
 
 .logos-slide img {
     height: 200px;
-    width: 200px;
+    width: 170px;
     margin: 0 30px;
 }
 
