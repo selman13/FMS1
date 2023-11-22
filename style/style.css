@@ -119,6 +119,15 @@ nav img {
     .display-6 {
         display: block;
     }
+
+    /* .row {
+        display: flex;
+        justify-content: center;
+    }
+    .sekil {
+        margin: auto;
+    } */
+
 }
 
 .slide-container{
