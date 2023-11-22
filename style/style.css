@@ -116,6 +116,9 @@ nav img {
     .flag, .flag1 {
         margin-top: 10px;
     }
+    .display-6 {
+        display: block;
+    }
 }
 
 .slide-container{
@@ -230,4 +233,12 @@ nav img {
 }
 .swiper-pagination-bullet-active{
     background-color: #4070F4;
+}
+
+.card-text {
+    text-transform: uppercase;
+}
+
+.swiper-slide .shadow .card-body h4 {
+    text-transform: uppercase;
 }

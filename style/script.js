@@ -33,3 +33,11 @@ var swiper = new Swiper(".slide-content", {
         }
     }
   });
+
+  // let h6 = document.querySelectorAll('.card-text');
+
+  // h6.forEach( (i, j) => {
+  //   if (j >= 4) {
+      
+  //   }
+  // })
