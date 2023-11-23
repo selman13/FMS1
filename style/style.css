@@ -214,7 +214,14 @@ nav img {
 .swiper-slide .shadow .card-body h4 {
     text-transform: uppercase;
 }
-
+/* .overlay1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5 );
+} */
 
 @media(max-width: 600px) {
     .sekil>img {
@@ -248,12 +255,7 @@ nav img {
         font-size: 13px;
     }
 
-    /* .row {
-        display: flex;
-        justify-content: center;
+    .logos img {
+        width: 55%;
     }
-    .sekil {
-        margin: auto;
-    } */
-
 }
