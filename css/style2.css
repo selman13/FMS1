@@ -16,7 +16,7 @@ nav img {
 }
 
 .flag {
-    background-image: url(../image/br.png);
+    background-image: url(../image/navbar_eng.png);
     height: 30px;
     width: 30px;
     background-position: center;
@@ -24,7 +24,7 @@ nav img {
 }
 
 .flag1 {
-    background-image: url(../image/azerbaijan.png);
+    background-image: url(../image/navbar_aze.png);
     height: 30px;
     width: 30px;
     background-position: center;
